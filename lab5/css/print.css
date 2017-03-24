@@ -1,0 +1,7 @@
+ @media print { 
+    body {
+        background: none;
+        font-family: Times New Roman, Georgia, Palatino;
+        margin: 50px;
+    }
+}

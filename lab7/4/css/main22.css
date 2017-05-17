@@ -1,16 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to top, #009999, #1d7373, #006363, #33cccc, #5ccccc) 100% 100% no-repeat;     background-size: 100%;
-    background-attachment: fixed;    
+    background: #ffffff;
 }
 
-.up{
-    color: black;
-}
-.more{
-    display: none;
-}
 nav ul {
     list-style: none;
     margin: 0;
@@ -27,11 +20,6 @@ nav a {
     color: #285064;
     transition: all 0.3s;
 }
-
-.checked{
-    border-bottom: 3px solid red;
-}
-
 nav a:hover {
     color: #12242d;
 }
@@ -85,6 +73,7 @@ nav span {
     padding: 5px;
     border: 2px solid white;
     background: black;
+    
 }
 
 .new p{
@@ -107,15 +96,15 @@ nav span {
     
 }
 
-.photo img{
-    padding: 0;
+.photo {
+    text-align: center;
     
 }
 
 .photo p{
     position: relative;
     margin: 0 auto;
-    
+    text-align: center;
 }
 
 img{
@@ -150,6 +139,4 @@ img{
 	height:100px;
 }
 	
-.clear{
-    clear: both;
-}
+	
